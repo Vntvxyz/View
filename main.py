@@ -176,17 +176,28 @@ if __name__ == "__main__":
         with open('proxies.txt', 'r') as f:
             proxies = f.read().splitlines()
     os.system("cls" if os.name == "nt" else "clear")
-    set_title("HN TOOL")
+    set_title("Admin@ThànhVinh")
     txt = """\n\n
-    TikTok Viewbot by @Hoài Nam \n"""
-    print(
+    Viewbot Thuộc Bản Quyền Của @Thành Vinh \n"""
+    ⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⡿⠿⠿⠿⠿⢿⣿⣿⣷⣦⣄⣀⣤⣶⣶
+⠀⠀⠀⠀⠀⣰⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⠟⠋
+⠀⠀⠀⠀⣼⣿⡿⠃⠀⢀⣤⣾⣿⣿⣿⣿⣷⣦⣄⠀⠀⠈⠉⠀⠀⠀
+⠀⠀⠀⣸⣿⡿⠁⠀⢠⣿⣿⠟⠉⠀⠈⠉⠛⢿⣿⣷⡄⠀⠀⠀⠀⠀
+⠀⠀⢀⣿⣿⡇⠀⠀⣾⣿⡟⠀⠀⢀⣤⣄⠀⠀⠹⣿⣿⡄⠀⠀⠀⠀
+⠀⠀⣾⣿⣿⡇⠀⠀⢻⣿⣷⡀⠀⠘⣿⣿⡇⠀⠀⣿⣿⡇⠀⠀⠀⠀
+⠀⣼⣿⡿⣿⣿⡄⠀⠈⠻⣿⣿⣷⣿⣿⡿⠃⠀⢀⣿⣿⡇⠀⠀⠀⠀
+⣰⣿⣿⠁⠹⣿⣿⣦⡀⠀⠈⠉⠛⠋⠉⠀⠀⣠⣾⣿⡟⠀⠀⠀⠀⠀
+⣿⣿⣧⣤⣤⣬⣿⣿⣿⣶⣦⣤⣤⣤⣴⣶⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀
+⠙⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀
+print(
         Colorate.Vertical(
             Colors.DynamicMIX((Col.light_blue, Col.purple)), Center.XCenter(txt)
         )
     )
     
     try:
-        link = str(Write.Input("\n\n            ? - Video Link > ", Colors.white_to_green, interval=0.0001))
+        link = str(Write.Input("\n\n      Link Video > ", Colors.white_to_green, interval=0.0001))
         __aweme_id = str(
             re.findall(r"(\d{18,19})", link)[0]
             if len(re.findall(r"(\d{18,19})", link)) == 1
