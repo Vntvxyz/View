@@ -179,7 +179,7 @@ if __name__ == "__main__":
     set_title("Admin@ThànhVinh")
     txt = """\n\n
     Viewbot Thuộc Bản Quyền Của @Thành Vinh \n"""
-print(
+    print(
         Colorate.Vertical(
             Colors.DynamicMIX((Col.light_blue, Col.purple)), Center.XCenter(txt)
         )
